@@ -1,14 +1,30 @@
+Bài tạp buổi 1 
 a. Câu lệnh để cài đặt email và name là 
 - git config user.name "Quynh"
 - git config user.email "quynhlt3@kiotviet.com”
-
 b. Setup lại name của bạn về "K6 - <tên của bạn>"
-
 - git config  --global user.name "K7-Quynh'
 c. Commit file và push lên Git
-
 git init
 git remote add origin git@github.com:LuuQuynh/pw-course.git
 git add answer.txt
 git commit -m"btvn_2"
 git push origin master
+
+Bài tập buổi 2
+- git init:Khởi tạo git
+-  Sau khi cài đặt xong cần cấu hình git :
+ Cho 1 repo:
+ git config user.name ""
+ git config user.email ""
+
+ Cho toàn bộ repo
+
+ git config --global user.name ""
+ git config --global user.email ""
+
+
+ Thêm file
+ git add . -> Thêm toàn bộ file
+ git add tenfile.txt  ->Thêm 1 file tenfile.txt
+
